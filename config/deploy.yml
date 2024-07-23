@@ -9,6 +9,7 @@ builder:
     arch: amd64
 
 # Deploy to these servers.
+# For sub-domain apps do not include traefik service, only the servers service.
 servers:
   web:
     hosts:
